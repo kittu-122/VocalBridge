@@ -130,3 +130,9 @@ pip install pygame
 - **Usage**: Explains how to use the app with a brief walkthrough.
 - **Project Structure**: Gives an overview of the app’s file organization.
 - **Acknowledgements**: Credits the libraries and tools used.
+
+## Contributing
+- We're are open to enhancements & bug-fixes.
+- Feel free to add issues and submit patches.
+
+**Thank you for choosing this project. Hoping that this project proves useful and delivers a seamless experience for your needs!**
