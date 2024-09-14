@@ -70,8 +70,8 @@ Before setting up and running the project, ensure you have the following:
 ###  Setup and Installation🛠️
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/kittu-122/vocalbridge.git
-   cd vocalbridge
+   git clone https://github.com/kittu-122/VocalBridge.git
+   cd VocalBridge
    ```
 
 2. (Optional) Create a Virtual Environment:
