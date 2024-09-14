@@ -84,7 +84,7 @@ def voice_to_voice(audio_file, input_lang_code):
 # Function to handle audio transcription using AssemblyAI
 def audio_transcription(audio_file):
     try:
-        aai.settings.api_key = "33454009539c418997079206265147e7"  # Replace with your AssemblyAI API key
+        aai.settings.api_key = "your-assemblyai-api-key"  # Replace with your AssemblyAI API key
         transcriber = aai.Transcriber()
         transcription = transcriber.transcribe(audio_file)
         return transcription
@@ -105,10 +105,10 @@ def text_translation(text, from_lang_code, to_lang_code):
 # Function to handle text-to-speech conversion using ElevenLabs
 def text_to_speech(text, language_label):
     try:
-        client = ElevenLabs(api_key="sk_1b243082e39c4e2d35b514a91a5dbea0a7147a38797e7755")  # Replace with your ElevenLabs API key
+        client = ElevenLabs(api_key="your-elevenlab-api-key")  # Replace with your ElevenLabs API key
 
         response = client.text_to_speech.convert(
-            voice_id="M91M4GIcfXKgGCdbXQFv",  # Replace with the appropriate voice ID
+            voice_id="your-voice-id",  # Replace with the appropriate voice ID
             optimize_streaming_latency="0",
             output_format="mp3_22050_32",
             text=text,
