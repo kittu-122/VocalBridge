@@ -3,21 +3,21 @@
 Welcome to **VocalBridge**, an app designed to break language barriers with ease. Using **Gradio**, **AssemblyAI**, and **ElevenLabs**, it allows you to record or upload your voice, transcribe it, translate into multiple languages, and then convert it back to speech, all within a beautiful, user-friendly interface.
 
 ## 📚 Table of Contents
-1. [VocalBridge: A Voice Translator App](#vocalbridge-a-voice-translator-app)
-2. [Prerequisites](#prerequisites)
-3. [Problem Definition](#problem-definition)
-4. [Solution Provided](#solution-provided)
-5. [Features](#features)
-6. [How It Works](#how-it-works)
+
+1. [Prerequisites](#prerequisites)
+2. [Problem Definition](#problem-definition)
+3. [Solution Provided](#solution-provided)
+4. [Features](#features)
+5. [How It Works](#how-it-works)
    - [Website Overview](#website-overview)
-7. [Getting Started](#getting-started)
+6. [Getting Started](#getting-started)
    - [Setup and Installation](#setup-and-installation)
    - [Running the Project](#running-the-project)
-8. [Technologies Used](#technologies-used)
-9. [Dependencies](#dependencies)
-10. [Contributing](#contributing)
+7. [Technologies Used](#technologies-used)
+8. [Dependencies](#dependencies)
+9. [Contributing](#contributing)
 
-## 🛠️ Prerequisites
+## Prerequisites🛠️
 
 Before setting up and running the project, ensure you have the following:
 
@@ -33,7 +33,7 @@ Before setting up and running the project, ensure you have the following:
    - Instructions for setting up a virtual environment can be found [here](https://docs.python.org/3/library/venv.html).
 5. **Internet Connection**: Required for downloading dependencies and accessing APIs.
 
-## 📝 Problem Definition
+##  Problem Definition📝
 
 - **Language Barriers**: Difficulty in communicating across multiple languages.
 - **Transcription Accuracy**: Need for precise conversion of spoken words to text.
@@ -41,23 +41,22 @@ Before setting up and running the project, ensure you have the following:
 - **Speech Generation**: Producing natural-sounding audio from translated text.
 - **User Interface**: Creating an intuitive interface for recording, translating, and playing audio.
 
-## 💡 Solution Provided
+##  Solution Provided💡
 **VocalBridge** addresses this by offering:
 1. Real-time **audio transcription**.
 2. **Multi-language translations** for the transcribed text.
 3. Speech generation from translations in a variety of supported languages.
 4. Downloadable **audio outputs** for easy access and sharing.
 
-## ⚙️ Features
+##  Features⚙️
 - 🎙️ **Voice Recording & Uploading**: Record directly from your microphone or upload existing audio.
 - 🌐 **Multi-language Translation**: Translate your voice into a wide range of supported languages.
 - 🔊 **Text-to-Speech in Multiple Languages**: Get audio outputs in your chosen languages.
 - 📈 **Real-time Progress Tracking**: Keep an eye on the status of your transcription and translation tasks.
 - 🌟 **Sleek UI**: A modern, customizable interface with a waveform player.
 
-## 🌐 How It Works
+##  How It Works🌐
 
-You can explore the functionality and features of the **VocalBridge** app on our live website:
 ![Working of the Project](working.png)
 
 ### Website Overview
@@ -66,12 +65,12 @@ You can explore the functionality and features of the **VocalBridge** app on our
 - **Language Selection**: Choose from a variety of languages for translation.
 - **Audio Playback**: Listen to the translated audio outputs directly on the website.
 
-## 🚀 Getting Started
+##  Getting Started🚀
    
-### 🛠️ Setup and Installation
+###  Setup and Installation🛠️
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/vocalbridge.git
+   git clone https://github.com/kittu-122/vocalbridge.git
    cd vocalbridge
    ```
 
@@ -86,14 +85,14 @@ You can explore the functionality and features of the **VocalBridge** app on our
    pip install -r requirements.txt
    ```
    
-### 🎯 Running the Project
+###  Running the Project🎯
 1. Run the Gradio App:
    ```bash
    python {replace with file name}.py
    ```
 2. Access the App: Open http://localhost:7860 in your browser to start using VocalBridge.
 
-## 🛠️ Technologies Used
+##  Technologies Used🛠️
 
 This project leverages the following libraries and tools:
 
@@ -102,7 +101,7 @@ This project leverages the following libraries and tools:
 - **Gradio**: [Quickstart Guide](https://www.gradio.app/guides/quickstart)
 - **Translator Library**: [Documentation](https://translate-python.readthedocs.io/en/latest/)
 
-## 📦 Dependencies
+##  Dependencies📦
 - `assemblyai`
 - `translate`
 - `elevenlabs`
