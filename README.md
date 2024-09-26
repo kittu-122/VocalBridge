@@ -77,7 +77,7 @@ Before setting up and running the project, ensure you have the following:
 2. (Optional) Create a Virtual Environment:
     ```bash
    python -m venv venv
-   venv/bin/activate  
+   venv/Scripts/activate  
    ```
 
 3. Install Dependencies
